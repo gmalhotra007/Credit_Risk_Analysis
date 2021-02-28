@@ -14,40 +14,46 @@ Evaluated the performance of these models and made a written recommendation on w
 ## Result
 ---
 - RandomOverSampler:
-<img src = "randomOverSampler.png">
+
     - The balanced accuracy score is about 65%
     - High Risk Precision is 1% with a sensitivity of 62%
     - Low Risk Precision is 100% with a sensitivity of 68%
+    <img src = "randomOverSampler.png">
 
 - SMOTE:
-<img src= "SMOTEModel.png">
+
     - The balanced accuracy is 64%
     - High Risk Precision is 1% with a sensitivity of 63%
     - Low Risk Precision is 100% with a sensitivity of 66%
+    <img src= "SMOTEModel.png">
 
 - ClusterCentroids:
-<img src= "clusterCentroids.png">
+
     - The balanced accuracy is down to approx 52%
     - High Risk Precision is 1% with a sensitivity of 61%
     - Low Risk Precision is 100% with a sensitivity of 45%
+    <img src= "clusterCentroids.png">
 
 - SMOTEENN:
-<img src = "SMOTEENN.png">
+
     - The balanced accuracy is 62%
     - High Risk Precision is 1% with a sensitivity of 68%
     - Low Risk Precision is 100% with a sensitivity of 57%
+    <img src = "SMOTEENN.png">
 
 - BalancedRandomForest:
-<img src= "balancedRandomForest.png">
+
     - The balanced accuracy is about 78%
     - High Risk Precision is 4% with a sensitivity of 67%
     - Due to lower number of false positives,Low Risk Precision is 100% with a sensitivity of 91%
+    <img src= "balancedRandomForest.png">
 
 - EasyEnsembleAdaBoostClassifier:
-<img src = "easyEnsembleAdaBoostClassifier.png">
+
     - The balanced accuracy is now 92%
     - High Risk Precision is 7% with a sensitivity of 91%
     - Due to lower number of false positives,Low Risk Precision is 100% with a sensitivity of 94%
+    <img src = "easyEnsembleAdaBoostClassifier.png">
 
 ## Summary
 ---
